@@ -1,10 +1,10 @@
 package principal;
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica_JDA {
 
 	protected String tipoFigura;
 
-	public FiguraGeometrica(String tipoFigura) {
+	public FiguraGeometrica_JDA(String tipoFigura) {
 		super();
 		this.tipoFigura = tipoFigura;
 	}
