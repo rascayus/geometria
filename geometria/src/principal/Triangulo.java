@@ -1,3 +1,4 @@
+package principal;
 
 public class Triangulo extends FiguraGeometrica {
 	private double a;
@@ -17,7 +18,7 @@ public class Triangulo extends FiguraGeometrica {
 	}
 
 	@Override
-	public double area() { //Utiliza la formula de Her—n
+	public double area() { //Utiliza la formula de Herï¿½n
 		double sp;
 		sp = this.semiPerimetro();
 		return Math.sqrt(sp * (sp-a) * (sp-b) * (sp-c));

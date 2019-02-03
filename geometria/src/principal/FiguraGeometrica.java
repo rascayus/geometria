@@ -1,3 +1,4 @@
+package principal;
 
 public abstract class FiguraGeometrica {
 

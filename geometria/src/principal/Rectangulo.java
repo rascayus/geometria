@@ -1,3 +1,4 @@
+package principal;
 
 public class Rectangulo extends FiguraGeometrica {
 	private double l1;
