@@ -7,7 +7,12 @@ public class Circulo_JDA extends FiguraGeometrica_JDA {
 	
 	public Circulo_JDA(double r, String tipoFigura) {
 		super(tipoFigura);
-		radio = r;
+		if (r >= 0) {
+			radio = r;	
+		}
+		else {
+			radio = Math.abs(r);
+		}; 
 	}
 
 	@Override
